@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login-card {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-title.thin {
+    margin-top: 20px;
+    font-weight: 400; 
+    margin-bottom: 50px;
+}
+
+.input-container {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+.text-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.text-field:focus {
+    border-color: #4285f4; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(66, 133, 244, 0.5); 
+}
+
+.floating-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    font-size: 16px;
+    transition: transform 0.2s ease, font-size 0.2s ease, top 0.2s ease;
+}
+
+.text-field:focus + .floating-label,
+.text-field:valid + .floating-label {
+    transform: translateY(-30px) scale(0.75);
+    font-size: 16px;
+    top: 0;
+    color: #4285f4;
+}
+
+
+.forgot-link {
+    color: #4285f4;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.Lorem2-text {
+    margin-top: 50px;
+}
+
+.learn-more-link {
+    color: #4285f4;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.create-account-link {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.login-button {
+    background-color: #4285f4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-button {
+    background-color: #006600;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
