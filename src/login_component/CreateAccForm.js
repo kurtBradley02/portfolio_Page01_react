@@ -5,12 +5,12 @@ import { getAuth, createUserWithEmailAndPassword, sendEmailVerification } from '
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
+    apiKey: "AIzaSyAzkb3GrJITeh-tSo0XLl-umeBKkZ7zay4",
+    authDomain: "portfoliologin01react.firebaseapp.com",
+    projectId: "portfoliologin01react",
+    storageBucket: "portfoliologin01react.appspot.com",
+    messagingSenderId: "1093894338558",
+    appId: "1:1093894338558:web:f47ddfa28c328fe2a632af"
 };
 
 // Initialize Firebase
