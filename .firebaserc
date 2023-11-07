@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "portfoliologin01react"
-  }
+    "default": "portfoliologin01react",
+    "staging": "portfoliologin01react"
+  },
+  "targets": {},
+  "etags": {}
 }

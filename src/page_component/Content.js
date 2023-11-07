@@ -16,7 +16,7 @@ export default function Content() {
               <p class="lead my-4 text-muted">
                 Practice page design using reactjs and bootstrap. Free source code for template design @git
               </p>
-              <a href="#pricing" class="btn btn-secondary btn-lg">
+              <a href="https://github.com/kurtBradleyJocson/portfolio_login01_react.git" class="btn btn-secondary btn-lg">
                 Download
               </a>
             </div>
